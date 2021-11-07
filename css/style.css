@@ -672,7 +672,7 @@
 
 @media only screen and (max-width: 600px) {
   .parent {
-    height: 50vh;
+    height: 30vh;
   }
   .parent h1 {
     padding-top: 65px;
@@ -715,7 +715,7 @@
     padding-left: 0px;
     display: flex;
     position: absolute;
-    padding-left: 111px;
+    padding-left: 137px;
     padding-top: 70px;
   }
   .tit {

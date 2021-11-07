@@ -147,24 +147,28 @@ nav a:visited {
 
   @media only screen and (max-width: 600px) {
     header {
-      height: 30px;
+      width: 40%;
+      height: 35px;
       padding: .5px 3px;
+      margin-left: 29%;
     }
     #logo {
-      width: 45px;
+      width: 55px;
     }
     #trigger {
-      font-size: 10px;
+      font-size: 20px;
     }
     .overlay {
-      top: 60px;
+      width: 40%;
+      right: 31%;
+      top: 65px;
     }
     .overlay-content {
-      height: 20%;
-      font-size: 6px;
+      height: 30%;
+      font-size: 10px;
     }
     .closebtn {
-      right: 4px;
-      font-size: 10px !important;
+      right: 6px;
+      font-size: 20px !important;
     }
   }

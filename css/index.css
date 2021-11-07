@@ -1,0 +1,812 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  height: 80vh;
+  background-color: #eee;
+}
+.parent h1 {
+  padding-top: 100px;
+  font-size: 120px;
+  text-align: center;
+}
+.parent figure {
+  padding-top: 2%;
+  text-align: left;
+  font-size: 45px;
+}
+.gallery {
+  width: 100%;
+  min-height: 70vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+.fig {
+  width: 25%;
+  min-width: 250px;
+}
+.fig img {
+  width: 100%;
+  object-fit: cover;
+  height: 70vh;
+  display: block;
+}
+.gallery h2 {
+  color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  /* line-height: 63px; */
+  margin-bottom: -12px;
+}
+ a:link {
+  color: #eee;
+  text-decoration: none;
+}
+ a:visited {
+  color: #eee;
+}
+.products {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.des {
+  width: 25%;
+  min-width: 250px;
+}
+.des img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.keg {
+  color: #000;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.keg a:link {
+ color: #000;
+ text-decoration: none;
+}
+.keg a:visited {
+ color: #000;
+}
+.art {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  /* flex-flow: row wrap; */
+  justify-content: space-between;
+}
+.dir {
+  width: 50%;
+  min-width: 250px;
+}
+.dir img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.tit {
+  width: 50%;
+  min-width: 250px;
+  color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  background-color: #dd4124;
+  color: #eee;
+  width: 100%;
+  height: 8vh;
+  font-family: helvetica;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+}
+.footer a {
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  color: #eee;
+  display: flex;
+  align-self: center;
+}
+
+.email {
+  width: 100%;
+  height: 100vh;
+  background-color: #dd4124;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+.email h2 {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #eee;
+  padding-bottom: 5%;
+}
+.email a {
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+  color: #eee;
+  display: flex;
+}
+
+.top {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.het {
+  display: flex;
+  align-items: flex-end;
+}
+.het h1 {
+  color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+}
+.get {
+  width: 50%;
+  min-width: 250px;
+}
+.get img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.top-2 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  background: #000;
+  color: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.top-3 {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.bit {
+  width: 50%;
+}
+.bit P {
+ color: #eee;
+ font-family: helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 25px;
+}
+.jit {
+  width: 50%;
+  min-width: 250px;
+}
+.jit img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.top-4 {
+  width: 100%;
+  background-color: #000;
+}
+.artend h2 {
+  color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+.artend P {
+ color: #eee;
+ font-family: helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+.mid {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.cer {
+  display: flex;
+  align-items: flex-end;
+}
+.cer h1 {
+  color: #000;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+}
+.abe {
+  width: 50%;
+  min-width: 250px;
+}
+.abe img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.mid-2 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  background: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.mid-3 {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.gtxt {
+  width: 50%;
+}
+.gtxt P {
+ color: #000;
+ font-family: helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 25px;
+}
+.mpic {
+  width: 50%;
+  min-width: 250px;
+}
+.mpic img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.mid-4 {
+  width: 100%;
+  background-color: #eee;
+}
+.txtgroup h2 {
+  color: #000;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+.txtgroup P {
+ color: #000;
+ font-family: helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+.select {
+  width: 100%;
+  min-height: 92vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+.work {
+  width: 25%;
+  min-width: 250px;
+}
+.work img {
+  width: 100%;
+  object-fit: cover;
+  height: 92vh;
+  display: block;
+}
+
+.fall {
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  /* width: 94%; */
+  height: 80vh;
+  /* margin: 3%,#eee; */
+  background-color: #eee;
+}
+.fall h1 {
+  padding-top: 100px;
+  font-size: 120px;
+  text-align: center;
+}
+.fall figure {
+  padding-top: 2%;
+  text-align: left;
+  font-size: 45px;
+}
+.fall-1 {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.ptext {
+  width: 50%;
+}
+.ptext h2 {
+  color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+}
+.ptext P {
+ color: #eee;
+ font-family: helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 15px;
+}
+.pro {
+  width: 50%;
+  min-width: 250px;
+}
+.pro img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  display: block;
+}
+.fall-2 {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+.prod {
+  width: 25%;
+  min-width: 250px;
+}
+.prod img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  display: block;
+}
+.fall-2 h2 {
+  color: #000;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  display: flex;
+  position: absolute;
+}
+.fall-3 {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+.look {
+  width: 25%;
+  min-width: 250px;
+}
+.look img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  display: block;
+}
+.fall-3 h2 {
+  color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  display: flex;
+  position: absolute;
+}
+
+.bar {
+  background-color: #000;
+  color: #eee;
+  width: 100%;
+  height: 10vh;
+  font-family: helvetica;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.bar a {
+  font-size: 20px;
+  font-style: italic;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  color: #eee;
+  display: flex;
+  align-self: center;
+}
+
+@media only screen and (max-width: 980px) {
+  .parent {
+    height: 60vh;
+  }
+  .parent h1 {
+    font-size: 90px;
+  }
+  .parent figure {
+    font-size: 25px;
+  }
+  .gallery {
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+  }
+  .fig {
+    width: 50%;
+  }
+  .fig img {
+    height: 40vh;
+  }
+  .gallery h2 {
+    font-size: 40px;
+    margin-bottom: -7px;
+  }
+  .products {
+    min-height: 20vh;
+  }
+  .des img {
+    height: 20vh;
+  }
+  .keg {
+    font-size: 40px;
+    width: 30%;
+    padding-left: 40px;
+  }
+  .art {
+    min-height: 50vh;
+    align-items: flex-end;
+  }
+  .dir {
+    width: 100%;
+  }
+  .dir img {
+    height: 50vh;
+  }
+  .tit {
+    font-size: 40px;
+    position: absolute;
+  }
+  .select {
+    min-height: 93vh;
+  }
+  .work {
+    width: 50%;
+  }
+  .work img {
+    height: 93vh;
+  }
+  .top {
+    min-height: 40vh;
+  }
+  .het h1 {
+    font-size: 60px;
+    /* padding-right: 30px; */
+  }
+  .get {
+    width: 100%;
+  }
+  .get img {
+    height: 40vh;
+  }
+  .top-2 {
+    font-size: 20px;
+  }
+  .bit {
+    width: 50%;
+    display: flex;
+    position: absolute;
+  }
+  .bit P {
+   color: #000;
+   font-size: 20px;
+  }
+  .jit {
+    width: 100%;
+  }
+  .artend h2 {
+    font-size: 40px;
+  }
+  .artend P {
+   font-size: 20px;
+  }
+  .mid {
+    min-height: 40vh;
+  }
+  .cer h1 {
+    font-size: 60px;
+    /* padding-right: 30px; */
+  }
+  .abe {
+    width: 100%;
+  }
+  .abe img {
+    height: 40vh;
+  }
+  .mid-2 {
+    font-size: 20px;
+  }
+  .gtxt {
+    width: 50%;
+    z-index: 1;
+  }
+  .gtxt P {
+   font-size: 20px;
+  }
+  .mid-4 {
+    width: 100%;
+  }
+  .txtgroup h2 {
+    font-size: 40px;
+  }
+  .txtgroup P {
+   font-size: 20px;
+  }
+  .fall {
+    height: 40vh;
+  }
+  .fall h1 {
+    font-size: 60px;
+  }
+  .fall figure {
+    font-size: 20px;
+  }
+  .ptext h2 {
+    font-size: 40px;
+  }
+  .ptext P {
+   font-size: 15px;
+  }
+  .fall-2 {
+    min-height: 20vh;
+  }
+  .prod {
+    width: 25%;
+    min-width: 0px;
+  }
+  .prod img {
+    height: 20vh;
+  }
+  .fall-2 h2 {
+    font-size: 40px;
+  }
+  .fall-3 {
+    min-height: 50vh;
+  }
+  .look {
+    width: 50%;
+  }
+  .look img {
+    height: 50vh;
+  }
+  .fall-3 h2 {
+    font-size: 40px;
+  }
+  .footer {
+    height: 7vh;
+  }
+  .bar {
+    height: 9vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parent {
+    height: 40vh;
+  }
+  .parent h1 {
+    font-size: 60px;
+  }
+  .parent figure {
+    font-size: 13px;
+  }
+  .gallery {
+    width: 100%;
+    min-height: 30vh;
+    height: auto;
+  }
+  .fig {
+    width: 100%;
+  }
+  .fig img {
+    height: 30vh;
+  }
+  .gallery h2 {
+    font-size: 25px;
+    margin-bottom: -5px;
+  }
+  .products {
+    min-height: 20vh;
+  }
+  .des {
+    width: 50%;
+    min-width: 0;
+  }
+  .des img {
+    height: 20vh;
+  }
+  .keg {
+    font-size: 25px;
+    width: 20%;
+    padding-left: 0px;
+    display: flex;
+    position: absolute;
+    padding-left: 137px;
+    padding-top: 70px;
+  }
+  .tit {
+    font-size: 20px;
+    position: absolute;
+  }
+  .work {
+    width: 100%;
+  }
+  .work img {
+    height: 23vh;
+  }
+  .top-2 {
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .bit {
+    width: 35%;
+  }
+  .bit P {
+   font-size: 10px;
+  }
+  .artend h2 {
+    font-size: 25px;
+  }
+  .artend P {
+   font-size: 10px;
+  }
+  .mid {
+    min-height: 40vh;
+  }
+  .abe {
+    width: 100%;
+  }
+  .abe img {
+    height: 40vh;
+  }
+  .mid-2 {
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .gtxt {
+    width: 25%;
+  }
+  .gtxt P {
+   font-size: 10px;
+  }
+  .mpic {
+    width: 75%;
+  }
+  .txtgroup h2 {
+    font-size: 25px;
+  }
+  .txtgroup P {
+   font-size: 10px;
+  }
+  .fall {
+    height: 30vh;
+    padding-top: 0px;
+  }
+  .fall h1 {
+    font-size: 50px;
+  }
+  .fall figure {
+    font-size: 10px;
+  }
+  .ptext {
+    width: 100%;
+  }
+  .ptext h2 {
+    font-size: 25px;
+  }
+  .ptext P {
+   font-size: 10px;
+
+  }
+  .pro {
+    width: 100%;
+    height: 20vh;
+  }
+  .fall-2 h2 {
+    font-size: 25px;
+  }
+  .fall-3 {
+    min-height: 50vh;
+  }
+  .look {
+    width: 100%;
+  }
+  .look img {
+    height: 50vh;
+  }
+  .fall-3 h2 {
+    font-size: 25px;
+  }
+}

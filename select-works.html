@@ -8,20 +8,23 @@
   <title>Select-works</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header>
-    <div id="logo">
-      <a href="index.html"><img src="images/LOGO.svg"></a>
-    </div>
+  <div class="transition transition-1 is-active"></div>
+  <div class="page">
+    <header id="head">
+      <div id="logo">
+        <a href="index.html"></a>
+      </div>
 
-    <span id="trigger">☰</span>
+      <span id="trigger">☰</span>
 
-  </header>
-  <nav id="myNav" class="overlay">
-    <span class="closebtn" id="close">×</span>
-    <div class="overlay-content">
+    </header>
+    <nav id="myNav" class="overlay">
+      <span class="closebtn" id="close">×</span>
+      <div id="overlay-content">
       <a href="index.html">ABOUT</a>
       <a href="select-works.html">SELECT WORKS</a>
       <a href="design.html">DESIGN</a>
@@ -29,19 +32,44 @@
       <a href="contact.html">CONTACT</a>
     </div>
   </nav>
-  <section>
-    <figure class="select">
-      <!-- <h2>SELECT WORKS</h2> -->
-      <figure class="work"><a href="summer18.html"><img src="images/aldo1.jpg"></a></figure>
-        <figure class="work"><a href="summer19.html"><img src="images/enzo1.jpg"></a></figure>
-        <figure class="work"><a href="fall17.html"><img src="images/lionel1.JPG"></a></figure>
-        <figure class="work"><a href="summer18.html"><img src="images/aldo1.jpg"></a></figure>
+
+  <section class="container">
+    <figure class="post-module">
+        <div class="thumbnail">
+          <img src="images/lionel1.JPG">
+        </div>
+        <div class="post-content">
+          <h1 class="title"><a href="fall17.html">HEATING UP</a></h1>
+          <h2 class="sub_title">fall17</h2>
+        </div>
     </figure>
-  </section>
+
+    <figure class="post-module">
+        <div class="thumbnail">
+          <img src="images/enzo1.jpg">
+        </div>
+        <div class="post-content">
+          <h1 class="title"><a href="summer19.html">LONELY ROADS</a></h1>
+          <h2 class="sub_title">summer19</h2>
+          </div>
+    </figure>
+
+    <figure class="post-module">
+        <div class="thumbnail">
+          <img src="images/aldo1.jpg">
+        </div>
+        <div class="post-content">
+          <h1 class="title"><a href="summer18.html">SUMMER DAZE</a></h1>
+          <h2 class="sub_title">summer18</h2>
+        </div>
+    </figure>
+</section>
+
   <section class="footer">
     <a href="contact.html">CONTACT</a>
   </section>
   <script src="js/menu.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -37,9 +38,8 @@
     <h1>HEATING UP</h1>
     <figure>
       THE FALL 2017 CAPSULE COLLECTION WAS INSPIRED BY THE MONTREAL YOUTH CULTURAL SCENE THAT I GREW UP ENJOYING.
-      MY INITIAL IDEA WAS TO SHOOT IN A DEPANNEUR BUT IT WAS NOT EASY TO COORDINATE. SHOOTING IN A LAUNDROMAT, OVERNIGHT,
-      WAS THE NEXT BEST THING. THE IDEA WAS TO CAPTURE RAW, FILM QUALITY SHOTS, OF SOME KIDS WEARING THE NEW
-      MAGNOLIA ROAD SHIRTS AND TUQUES, WHILE DOING WHAT YOUTH DOES BEST, HANGING OUT, IN A 24HR LAUNDROMAT.
+      WE ENDED UP SHOOTING IN A 24/HR LAUNDROMAT. THE IDEA WAS TO CAPTURE RAW, FILM QUALITY SHOTS, OF SOME KIDS WEARING THE NEW
+      MAGNOLIA ROAD SHIRTS AND TUQUES, WHILE DOING WHAT YOUTH DOES BEST, HANGING OUT.
     </figure>
   </section>
 
@@ -52,14 +52,21 @@
       <figure class="pro"><img src="images/lionel1.JPG"></figure>
     </figure>
   </section>
-
+  <div class="swiper">
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
   <section class="fall-2">
+    <div class="swiper-wrapper">
     <h2>PRODUCTS</h2>
-    <figure class="prod"><img src="images/product1.png"></figure>
-    <figure class="prod"><img src="images/product2.jpg"></figure>
-    <figure class="prod"><img src="images/product1.png"></figure>
-    <figure class="prod"><img src="images/product2.jpg"></figure>
+    <div class="swiper-slide"><figure class="prod"><img src="images/product1.png"></figure></div>
+    <div class="swiper-slide"><figure class="prod"><img src="images/product2.jpg"></figure></div>
+    <div class="swiper-slide"><figure class="prod"><img src="images/product1.png"></figure></div>
+    <div class="swiper-slide"><figure class="prod"><img src="images/product2.jpg"></figure></div>
+    </div>
   </section>
+</div>
 
   <section class="fall-3">
     <h2>LOOKBOOK</h2>
@@ -80,6 +87,7 @@
   </section>
   <script src="js/menu.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
 
 </html>

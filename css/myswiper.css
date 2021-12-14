@@ -76,6 +76,11 @@ body {
     width:450px;
     text-align: left;
   }
+  .swiper-slide > img {
+    /* object-fit: cover; */
+    width:90%;
+    height:auto;
+  }
 }
 
 /* === MOBILE LAYOUT INHERITS FROM DESKTOP AND THE TABLET 600PX === */
@@ -83,6 +88,11 @@ body {
   .swiper-slide > figure {
     width:230px;
     text-align: left;
+  }
+  .swiper-slide > img {
+    /* object-fit: cover; */
+    width:90%;
+    height:auto;
   }
 
 }

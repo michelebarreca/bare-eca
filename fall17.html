@@ -6,9 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fall17</title>
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/myswiper.css">
+
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
@@ -37,9 +43,8 @@
     <h1>HEATING UP</h1>
     <figure>
       THE FALL 2017 CAPSULE COLLECTION WAS INSPIRED BY THE MONTREAL YOUTH CULTURAL SCENE THAT I GREW UP ENJOYING.
-      MY INITIAL IDEA WAS TO SHOOT IN A DEPANNEUR BUT IT WAS NOT EASY TO COORDINATE. SHOOTING IN A LAUNDROMAT, OVERNIGHT,
-      WAS THE NEXT BEST THING. THE IDEA WAS TO CAPTURE RAW, FILM QUALITY SHOTS, OF SOME KIDS WEARING THE NEW
-      MAGNOLIA ROAD SHIRTS AND TUQUES, WHILE DOING WHAT YOUTH DOES BEST, HANGING OUT, IN A 24HR LAUNDROMAT.
+      WE ENDED UP SHOOTING IN A 24/HR LAUNDROMAT. THE IDEA WAS TO CAPTURE RAW, FILM QUALITY SHOTS, OF SOME KIDS WEARING THE NEW
+      MAGNOLIA ROAD SHIRTS AND TUQUES, WHILE DOING WHAT YOUTH DOES BEST, HANGING OUT.
     </figure>
   </section>
 
@@ -53,20 +58,39 @@
     </figure>
   </section>
 
-  <section class="fall-2">
-    <h2>PRODUCTS</h2>
-    <figure class="prod"><img src="images/product1.png"></figure>
-    <figure class="prod"><img src="images/product2.jpg"></figure>
-    <figure class="prod"><img src="images/product1.png"></figure>
-    <figure class="prod"><img src="images/product2.jpg"></figure>
+  <section class="swiper-container">
+    <div class="swiper-wrapper">
+      <h2>PRODUCTS</h2>
+      <figure class="swiper-slide"><img src="images/l1.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l2.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l3.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l4.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l5.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l6.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l8.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l9.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/l10.jpg"></figure>
+    </div>
+
+    <div class="swiper-button-next arrow"></div>
+    <div class="swiper-button-prev arrow"></div>
   </section>
 
-  <section class="fall-3">
-    <h2>LOOKBOOK</h2>
-    <figure class="look"><img src="images/aldo1.jpg"></a></figure>
-      <figure class="look"><img src="images/enzo1.jpg"></a></figure>
-      <figure class="look"><img src="images/lionel1.JPG"></a></figure>
-      <figure class="look"><img src="images/aldo1.jpg"></a></figure>
+  <section class="swiper-container">
+    <div class="swiper-wrapper">
+      <h2>LOOKBOOK</h2>
+      <figure class="swiper-slide"><img src="images/lionel2.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel3.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel4.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel5.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel6.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel7.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel8.JPG"></figure>
+      <figure class="swiper-slide"><img src="images/lionel9.JPG"></figure>
+    </div>
+
+    <div class="swiper-button-next arrow"></div>
+    <div class="swiper-button-prev arrow"></div>
   </section>
 
   <section class="bar">
@@ -78,8 +102,22 @@
   <section class="footer">
     <a href="contact.html">CONTACT</a>
   </section>
+
   <script src="js/menu.js"></script>
   <script src="js/main.js"></script>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
 </body>
 
 </html>

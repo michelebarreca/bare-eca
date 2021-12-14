@@ -6,9 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Summer19</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/myswiper.css">
+
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
@@ -49,21 +55,40 @@
     </figure>
   </section>
 
-  <section class="fall-2">
-    <h2>PRODUCTS</h2>
-    <figure class="prod"><img src="images/product1.png"></figure>
-    <figure class="prod"><img src="images/product2.jpg"></figure>
-    <figure class="prod"><img src="images/product1.png"></figure>
-    <figure class="prod"><img src="images/product2.jpg"></figure>
+  <section class="swiper-container">
+    <div class="swiper-wrapper">
+      <h2>PRODUCTS</h2>
+      <figure class="swiper-slide"><img src="images/produc1.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product4.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product5.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product6.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product7.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product8.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product2.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/produ.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product9.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/product10.jpg"></figure>
+    </div>
+
+    <div class="swiper-button-next arrow"></div>
+    <div class="swiper-button-prev arrow"></div>
   </section>
 
-  <section class="fall-3">
-    <h2>LOOKBOOK</h2>
-    <figure class="look"><img src="images/aldo1.jpg"></a></figure>
-      <figure class="look"><img src="images/enzo1.jpg"></a></figure>
-      <figure class="look"><img src="images/lionel1.JPG"></a></figure>
-      <figure class="look"><img src="images/aldo1.jpg"></a></figure>
+  <section class="swiper-container">
+    <div class="swiper-wrapper">
+      <h2>LOOKBOOK</h2>
+      <figure class="swiper-slide"><img src="images/enzo1.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/enzo2.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/enzo3.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/enzo4.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/enzo6.jpg"></figure>
+      <figure class="swiper-slide"><img src="images/enzo7.jpg"></figure>
+    </div>
+
+    <div class="swiper-button-next arrow"></div>
+    <div class="swiper-button-prev arrow"></div>
   </section>
+
   <section class="bar">
     <a href="summer18.html">< PREVIOUS</a>
     <a href="select-works.html">WORKS</a>
@@ -72,8 +97,22 @@
   <section class="footer">
     <a href="contact.html">CONTACT</a>
   </section>
+
   <script src="js/menu.js"></script>
   <script src="js/main.js"></script>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
 </body>
 
 </html>
